@@ -10,6 +10,12 @@ table {
     padding: 8px;
   }
 
+  @media screen and (max-width: 500px) {
+      table {
+        width: 70%;
+      }
+}
+
 
   
  
