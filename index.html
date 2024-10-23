@@ -9,59 +9,44 @@
 </head>
 <body>
 
-    <h3>Tuesday November 14, 2023</h3>
-    <h3>Thulata Jumada Al Awwal 1, 1445</h3>
-    <table>
+    <h3 id="gregorianDate"></h3>
 
+    <!-- Search Bar for City -->
+    <input type="text" id="cityInput" placeholder="Enter city name" />
+    <button onclick="searchCity()">Search</button><br><br>
+    
+    <table>
         <tr>
             <th>Salah</th>
             <th>Azan</th>
-            <th>Iqamah</th>
         </tr>
-
         <tr>
             <th>Fajr</th>
-            <td>5:25 A.M.</td>
-            <td>6:00 A.M.</td>
+            <td id="fajrTime"></td>
         </tr>
-
         <tr>
             <th>Sunrise</th>
-            <td>6:43 A.M.</td>
-            <td>6:53 A.M.</td>
+            <td id="sunriseTime"></td>
         </tr>
-
         <tr>
             <th>Zuhr</th>
-            <td>11:44 P.M.</td>
-            <td>1:15 P.M.</td>
+            <td id="zuhrTime"></td>
         </tr>
-
         <tr>
             <th>Asr</th>
-            <td>2:19 P.M.</td>
-            <td>3:00 P.M.</td>
+            <td id="asrTime"></td>
         </tr>
-
         <tr>
             <th>Maghreb</th>
-            <td>4:41 P.M.</td>
-            <td>4:46 P.M.</td>
+            <td id="maghrebTime"></td>
         </tr>
-
         <tr>
             <th>Isha</th>
-            <td>5:59 P.M.</td>
-            <td>8:00 P.M.</td>
+            <td id="ishaTime"></td>
         </tr>
-
     </table>
 
-    <h3>Islamic Society of North Jersey</h3>
-    <h3>Flanders, Budd Lake, & Hackettstown</h3><br>
+    <script src="./script.js"></script>
 
-    <h3>Budd Lake Jummah Salah @ 1:00 P.M.</h3>
-    <h3>Flanders Jummah Salah @ 1:30 P.M.</h3>
-    
 </body>
 </html>
